@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "http://ashish-czone.github.io/essbee/precache-manifest.72de60e59da1fc812f9513e50c2264db.js"
+  "https://ashish-czone.github.io/essbee/precache-manifest.d88bab60afc5fe7c12bce90e84a832a0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("http://ashish-czone.github.io/essbee/index.html", {
+workbox.routing.registerNavigationRoute("https://ashish-czone.github.io/essbee/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
